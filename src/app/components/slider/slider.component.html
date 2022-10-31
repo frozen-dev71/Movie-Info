@@ -5,7 +5,9 @@
 				<img class="slide-bg-image" [src]="getImagePath(movie.backdrop_path)">
 			</div>
 			<div class="slide-pane">
+				<a [routerLink]="'/movie/' + movie.id">
 				<h2 class="name">{{ movie.title }}</h2>
+				</a>
 				<div class="meta">
 					<div class="info">
 
