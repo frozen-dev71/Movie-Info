@@ -13,3 +13,4 @@ It was used https://www.themoviedb.org/ as API for the project. Also PrimeNG fra
 ## Video
 https://user-images.githubusercontent.com/44535117/199102618-ec7ac703-a6bc-453b-9ed1-b210d7686114.mp4
 
+ 
