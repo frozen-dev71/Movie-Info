@@ -3,6 +3,7 @@ import { MovieDetailComponent } from './pages/movie-detail/movie-detail.componen
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
+import { GenresComponent } from './pages/genres/genres.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,14 @@ const routes: Routes = [
   {
     path: 'movies/genres/:genreId',
     component: MoviesComponent
+  },
+  {
+    path: 'genres',
+    component: GenresComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 
