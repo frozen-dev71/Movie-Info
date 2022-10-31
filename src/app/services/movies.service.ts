@@ -15,7 +15,7 @@ import { of, switchMap } from 'rxjs';
 })
 export class MoviesService {
   baseUrl = 'https://api.themoviedb.org/3';
-  apiKey = 'a2e191de0670d1b3e93d71ddf029e2e6';
+  apiKey = 'API KEY HERE';
 
   constructor(private http: HttpClient) {}
 
