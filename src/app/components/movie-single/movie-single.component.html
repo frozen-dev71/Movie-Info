@@ -1,0 +1,12 @@
+<ng-container *ngIf="movieData">
+	<a class="movie-item">
+		<div class="movie-item-rating">
+			<i class="app-icon">star</i>
+			<span>{{ movieData.vote_average }}</span>/10
+		</div>
+		<div class="movie-item-image image-box-shadow">
+			<img [src]="getImagePath()">
+		</div>
+		<div class="movie-item-title"> {{ movieData.title }} </div>
+	</a>
+</ng-container>

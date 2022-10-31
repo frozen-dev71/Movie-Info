@@ -1,0 +1,10 @@
+<div class="container">
+	<h2>{{ title }}</h2>
+	<div class="grid">
+		<ng-container *ngFor="let item of items">
+			<div class="col-6 md:col-3 lg:col-2" *ngIf="item.backdrop_path">
+				<app-movie-single [movieData]="item"></app-movie-single>
+			</div>
+		</ng-container>
+	</div>
+</div>

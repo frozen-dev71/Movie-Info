@@ -18,7 +18,7 @@ currentSliderIndex: number = 0;
   constructor() { }
 
   ngOnInit(): void {
-    if (this.isBanner) {
+    if (!this.isBanner) {
       return;
     }
 
