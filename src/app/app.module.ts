@@ -17,6 +17,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { MovieBannerComponent } from './components/movie-banner/movie-banner.component';
 import { MovieSingleComponent } from './components/movie-single/movie-single.component';
 import { MovieDetailComponent } from './pages/movie-detail/movie-detail.component';
+import { VideoEmbederComponent } from './components/video-embeder/video-embeder.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { MovieDetailComponent } from './pages/movie-detail/movie-detail.componen
     HomeComponent,
     MovieBannerComponent,
     MovieSingleComponent,
-    MovieDetailComponent
+    MovieDetailComponent,
+    VideoEmbederComponent
   ],
   imports: [
     BrowserModule,

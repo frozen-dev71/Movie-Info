@@ -41,9 +41,9 @@
 
 		<p-tabPanel header="Videos">
 			<div class="grid">
-				<ng-container *ngFor="let movieVide of movieVideos">
+				<ng-container *ngFor="let movieVideo of movieVideos">
 					<div class="col-12 md:col-4 lg:col-4">
-
+						<app-video-embeder [key]="movieVideo.key" [site]="movieVideo.site"></app-video-embeder>
 					</div>
 				</ng-container>
 			</div>
