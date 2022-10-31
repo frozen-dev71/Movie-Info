@@ -11,7 +11,7 @@ import { IMAGES_SIZES } from 'src/app/constants/image.sizes';
 })
 export class SliderComponent implements OnInit {
 @Input() movies: Movie[] = [];
-@Input() isBanner = false;
+@Input() isBanner = true;
 
 currentSliderIndex: number = 0;
 
