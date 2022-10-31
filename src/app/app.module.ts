@@ -18,6 +18,7 @@ import { MovieBannerComponent } from './components/movie-banner/movie-banner.com
 import { MovieSingleComponent } from './components/movie-single/movie-single.component';
 import { MovieDetailComponent } from './pages/movie-detail/movie-detail.component';
 import { VideoEmbederComponent } from './components/video-embeder/video-embeder.component';
+import { MoviesComponent } from './pages/movies/movies.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { VideoEmbederComponent } from './components/video-embeder/video-embeder.
     MovieBannerComponent,
     MovieSingleComponent,
     MovieDetailComponent,
-    VideoEmbederComponent
+    VideoEmbederComponent,
+    MoviesComponent
   ],
   imports: [
     BrowserModule,

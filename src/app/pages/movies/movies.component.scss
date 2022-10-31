@@ -1,0 +1,16 @@
+@import '../../../styles/colors';
+
+.container {
+  padding-bottom: 25px;
+}
+
+p-paginator {
+  margin-top: 15px;
+  width: 100%;
+}
+
+:host ::ng-deep {
+  .p-paginator {
+    background: $bgColor;
+  }
+}
