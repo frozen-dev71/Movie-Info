@@ -11,14 +11,14 @@ import { IMAGES_SIZES } from 'src/app/constants/image.sizes';
 })
 export class SliderComponent implements OnInit {
 @Input() movies: Movie[] = [];
-@Input() isBanner = true;
+@Input() isBanner = false;
 
 currentSliderIndex: number = 0;
 
   constructor() { }
 
   ngOnInit(): void {
-    if (!this.isBanner) {
+    if (this.isBanner) {
       return;
     }
 

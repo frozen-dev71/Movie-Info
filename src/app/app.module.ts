@@ -16,6 +16,7 @@ import { SliderComponent } from './components/slider/slider.component';
 import { HomeComponent } from './pages/home/home.component';
 import { MovieBannerComponent } from './components/movie-banner/movie-banner.component';
 import { MovieSingleComponent } from './components/movie-single/movie-single.component';
+import { MovieDetailComponent } from './pages/movie-detail/movie-detail.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { MovieSingleComponent } from './components/movie-single/movie-single.com
     SliderComponent,
     HomeComponent,
     MovieBannerComponent,
-    MovieSingleComponent
+    MovieSingleComponent,
+    MovieDetailComponent
   ],
   imports: [
     BrowserModule,
